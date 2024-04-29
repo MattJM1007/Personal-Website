@@ -1,0 +1,240 @@
+html{
+    font-family: 'League Spartan',sans-serif;
+}
+
+.hero{
+    background:linear-gradient(#b5d9ff, #f1f8ff);
+    margin: 0;
+    padding: 20px;
+    height: 80vh; 
+}
+
+.herocontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+.name > h1{
+    font-size: 120px;
+    color: #2B6784;
+    padding-right: 80px;
+    margin-bottom: 0px;
+}
+
+.subtext > p{
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.resume{
+    display: flex;
+    margin: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+
+.profilepic{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #2B6784;
+}
+
+.profile p{
+    font-size: 20px;
+}
+
+.background{
+    display: flex;
+    margin: 50px;
+    gap: 300px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #737373;
+}
+
+.myresume{
+    background-color: #2B6784;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;    
+}
+
+.projects{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #eff7ff;
+    padding: 50px;
+}
+.projects>h2{
+    font-size: 50px;
+    color: #2B6784;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.projectcards img{
+    height: 200px;
+    width: 300px;
+}
+
+.projectcards{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 100px;
+    text-align: center;
+}
+
+.card{
+    border: darkgrey solid 1px;
+    width: 400px;
+    background-color: white;
+}
+
+.card > button{
+    background-color: #2B6784;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.aboutme{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.aboutme>h2{
+    grid-column-start: span 3;
+    font-size: 50px;
+    color: #2B6784;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.aboutme img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.about{
+    width: 800px;
+}
+
+.about h3{
+    font-size: 25px;
+    color: #2B6784;
+    margin-bottom: 10px;
+    position: relative;
+    top: 40px;
+}
+
+.about p{
+    font-size: 20px;
+    margin-top: 5px;
+    position: relative;
+    top: 40px;
+}
+
+footer{
+    text-align: center;
+    background:linear-gradient(#f1f8ff,#b5d9ff);
+    height: 300px;
+}
+
+.footerimg{
+    height: 50px;
+    margin: 25px;
+}
+
+footer>h2{
+    grid-column-start: span 3;
+    font-size: 40px;
+    color: #2B6784;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 50px ;
+}
+
+@media (max-width: 1200px){
+    .herocontent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .background{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .projectcards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+        width: 350px;
+    }
+
+    .card img{
+        width: 350px;
+    }
+
+    .about{
+        width: 600px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .name h1{
+        font-size: 80px;
+    }
+
+    .subtext p {
+        font-size: 20px;
+    }
+
+   .heroimg img{
+    width: 400px;
+   }
+
+   .about{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 50px;
+   }
+
+   .aboutme img{
+    clear: both;
+    padding-left: 30px;
+    margin-bottom: 0px;
+   }
+
+}
